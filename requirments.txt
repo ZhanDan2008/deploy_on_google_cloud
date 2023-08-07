@@ -1,0 +1,8 @@
+django
+djangorestframework
+Pillow
+psycopg2-binary
+django-decouple
+djangorestframework-simplejwt
+celery
+Redis
