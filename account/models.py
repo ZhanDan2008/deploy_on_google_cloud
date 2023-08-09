@@ -46,5 +46,5 @@ class CustomUser(AbstractUser):
 @receiver(post_save,sender=CustomUser)
 def order(sender,instance,*args,**kwargs):
     a = instance.username
-    d = CustomUser.objects.get(username=a)
+    d = CustomUser.objects.filter(username=a)
 
